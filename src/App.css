@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Lobster", "Lobster Two", sans-serif;
+}
+
+body {
+  overflow: hidden;
+  background-color: orange;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.name {
+  top: 0;
+  left: 10%;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-family: "Lobster";
+  font-size: 64px;
+}
+h3 {
+  font-size: 25px;
+}
+
+.container {
+  position: absolute;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+  padding: 24px;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+}
+
+h1 {
+  align-items: center;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+
+  margin: 20px;
+}
+.box:hover {
+  background-color: #ccc;
+}
+.icon {
+  margin-right: 10px;
+  color: white;
+}
+
+.image {
+  position: relative;
+  top: 0;
+  left: 30%;
+}
+
+img {
+  width: 42%;
+  border-radius: 8px;
+}
