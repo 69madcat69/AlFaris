@@ -32,7 +32,7 @@ const App = () => {
           <Mail
             className="text"
             label="m.seif@alfaristours.com"
-            mailto="mailto:m.seif@alfaristours.com"
+            mailto="m.seif@alfaristours.com"
           />
         </div>
         <div className="box">
