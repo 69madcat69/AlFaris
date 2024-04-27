@@ -18,31 +18,32 @@ const App = () => {
         <h2>Mohamed Seif</h2>
         <h3>Branch Manager Urubah</h3>
       </div>
-      {/* <div className="image">
-        <img src={logo}></img>
-      </div> */}
+
       <div className="container">
         <h1>Contact Me</h1>
         <div className="box">
           <FaPhoneAlt className="icon" />{" "}
-          <a href="tel:555-555-5555">555-555-5555</a>
+          <a href="tel:053-168-1656" className="text">
+            +966 531681656
+          </a>
         </div>
         <div className="box">
           <MdOutlineMail className="icon" />
           <Mail
-            label="a7medtarek201577@gmail.com"
-            mailto="mailto:a7medtarek201577@gmail.com"
+            className="text"
+            label="m.seif@alfaristours.com"
+            mailto="mailto:m.seif@alfaristours.com"
           />
         </div>
         <div className="box">
           <TbWorld className="icon" />
-          <a href="https://www.alfaristours.com/">
+          <a href="https://www.alfaristours.com/" className="text">
             https://www.alfaristours.com
           </a>
         </div>
         <div className="box">
-          <a onClick={showInMapClicked}>
-            <FaLocationDot className="icon" />
+          <FaLocationDot className="icon" />
+          <a onClick={showInMapClicked} className="text">
             Al Urubah Rd, As Sulimaniyah, Riyadh 12244, Saudi Arabia
           </a>
         </div>
