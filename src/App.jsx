@@ -1,11 +1,12 @@
 /* eslint-disable*/
-import { useState } from "react";
 import "./App.css";
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import Mail from "./components/Mail/Mail";
 import { FaLocationDot } from "react-icons/fa6";
 import { TbWorld } from "react-icons/tb";
+import { GiRotaryPhone } from "react-icons/gi";
+
 const App = () => {
   const showInMapClicked = () => {
     window.open(
@@ -16,7 +17,7 @@ const App = () => {
     <body>
       <div className="name">
         <h2>Mohamed Seif</h2>
-        <h3>Branch Manager Urubah</h3>
+        <h3>Branch Manager Urubah(Riyadh)</h3>
       </div>
 
       <div className="container">
@@ -25,6 +26,12 @@ const App = () => {
           <FaPhoneAlt className="icon" />{" "}
           <a href="tel:053-168-1656" className="text">
             +966 531681656
+          </a>
+        </div>
+        <div className="box">
+          <GiRotaryPhone className="icon" />{" "}
+          <a href="tel:00966112160540" className="text">
+            +966 112160540
           </a>
         </div>
         <div className="box">

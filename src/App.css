@@ -22,8 +22,9 @@ a {
 
 .name {
   top: 0;
-  left: 10%;
+  left: 50%;
   position: absolute;
+  transform: translateX(-50%);
   z-index: 1;
   text-align: center;
   color: white;
@@ -31,7 +32,7 @@ a {
 
 h2 {
   font-family: "Lobster";
-  font-size: 64px;
+  font-size: 45px;
 }
 h3 {
   font-size: 25px;
